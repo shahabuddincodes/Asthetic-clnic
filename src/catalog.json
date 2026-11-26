@@ -1,0 +1,216 @@
+{
+  "generatedAt": "2026-11-16T12:58:07.508Z",
+  "clinic": {
+    "name": "Dr. Mujahid Aesthetics",
+    "doctor": "Dr. Mujahid",
+    "address": "[Street address], [Area], [City]",
+    "phone": "+92 300 0000000",
+    "email": "hello@drmujahid.com",
+    "whatsapp": "923000000000",
+    "timeZoneLabel": "PKT",
+    "utcOffsetMinutes": 300
+  },
+  "rules": {
+    "hours": {
+      "0": [],
+      "1": [
+        [
+          "10:00",
+          "13:30"
+        ],
+        [
+          "14:30",
+          "19:00"
+        ]
+      ],
+      "2": [
+        [
+          "10:00",
+          "13:30"
+        ],
+        [
+          "14:30",
+          "19:00"
+        ]
+      ],
+      "3": [
+        [
+          "10:00",
+          "13:30"
+        ],
+        [
+          "14:30",
+          "19:00"
+        ]
+      ],
+      "4": [
+        [
+          "10:00",
+          "13:30"
+        ],
+        [
+          "14:30",
+          "19:00"
+        ]
+      ],
+      "5": [
+        [
+          "10:00",
+          "12:30"
+        ],
+        [
+          "14:30",
+          "19:00"
+        ]
+      ],
+      "6": [
+        [
+          "10:00",
+          "15:00"
+        ]
+      ]
+    },
+    "slotStepMinutes": 30,
+    "bufferMinutes": 10,
+    "minNoticeMinutes": 120,
+    "windowDays": 60,
+    "holidays": [
+      "2026-12-25",
+      "2027-01-01"
+    ],
+    "confirmation": "instant",
+    "cancellationCutoffHours": 12,
+    "holdMinutes": 10,
+    "videoConsultations": true
+  },
+  "services": [
+    {
+      "slug": "consultation",
+      "name": "First Consultation",
+      "duration": 30,
+      "category": "consultation",
+      "video": false,
+      "consultFirst": false
+    },
+    {
+      "slug": "follow-up",
+      "name": "Follow-up / Review Visit",
+      "duration": 20,
+      "category": "consultation",
+      "video": false,
+      "consultFirst": false
+    },
+    {
+      "slug": "video",
+      "name": "Video Consultation",
+      "duration": 20,
+      "category": "consultation",
+      "video": true,
+      "consultFirst": false
+    },
+    {
+      "slug": "acne-scars",
+      "name": "Acne & Acne Scar Treatment",
+      "duration": 45,
+      "category": "skin",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "chemical-peels",
+      "name": "Chemical Peels",
+      "duration": 45,
+      "category": "skin",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "hydrafacial",
+      "name": "HydraFacial & Deep Cleansing",
+      "duration": 60,
+      "category": "skin",
+      "video": false,
+      "consultFirst": false
+    },
+    {
+      "slug": "microneedling-prp",
+      "name": "Microneedling & PRP for Skin",
+      "duration": 60,
+      "category": "skin",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "pigmentation",
+      "name": "Skin Brightening & Pigmentation Care",
+      "duration": 45,
+      "category": "skin",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "rejuvenation",
+      "name": "Anti-Aging & Skin Rejuvenation",
+      "duration": 45,
+      "category": "skin",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "botox",
+      "name": "Botox for Fine Lines",
+      "duration": 30,
+      "category": "injectables",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "fillers",
+      "name": "Dermal & Lip Fillers",
+      "duration": 45,
+      "category": "injectables",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "laser-hair-removal",
+      "name": "Laser Hair Removal",
+      "duration": 45,
+      "category": "laser",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "laser-pigmentation",
+      "name": "Laser for Pigmentation & Tone",
+      "duration": 45,
+      "category": "laser",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "prp-hair",
+      "name": "Hair Loss Consultation & PRP",
+      "duration": 60,
+      "category": "hair",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "stretch-marks",
+      "name": "Stretch Mark & Body Skin",
+      "duration": 45,
+      "category": "body",
+      "video": false,
+      "consultFirst": true
+    },
+    {
+      "slug": "skin-tags",
+      "name": "Mole, Wart & Skin Tag Removal",
+      "duration": 30,
+      "category": "body",
+      "video": false,
+      "consultFirst": true
+    }
+  ]
+}

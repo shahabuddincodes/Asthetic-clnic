@@ -1,0 +1,29 @@
+{
+  "name": "dr-mujahid-aesthetics-api",
+  "version": "1.0.0",
+  "description": "Booking and admin API for the Dr. Mujahid Aesthetics website",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js",
+    "create-admin": "node scripts/create-admin.js",
+    "sync-catalog": "node scripts/sync-catalog.mjs"
+  },
+  "author": "Muhammad Riaz",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "better-sqlite3": "^13.2.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.3",
+    "express-rate-limit": "^8.7.4",
+    "helmet": "^8.3.0",
+    "nodemailer": "^10.6.0",
+    "zod": "^4.6.7"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  }
+}
